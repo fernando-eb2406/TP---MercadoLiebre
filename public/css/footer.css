@@ -1,0 +1,15 @@
+footer.footer section p.icono {
+  color: var(--colorAzul);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer section h4 {
+  text-align: center;
+  margin: 0px;
+}
+
+p.texto {
+  text-align: center;
+  margin-top: 0px;
+}

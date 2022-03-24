@@ -1,0 +1,23 @@
+body.home header {
+  background-color: #eac926;
+}
+
+h3.titulares {
+  font-size: 24px;
+}
+
+p.precios {
+  font-size: 18px;
+}
+
+p.descuentos {
+  font-size: 16px;
+}
+
+h4.descripcion {
+  font-size: 16px;
+}
+
+p.texto {
+  font-size: 12px;
+}
