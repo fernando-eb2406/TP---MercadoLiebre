@@ -21,11 +21,13 @@ header .contenido-centrado {
 header .nav-bar {
   padding: 8px 0;
   font-size: 12px;
+  display: none;
 }
 
 header .login-bar {
   padding: 8px 0;
   font-size: 12px;
+  display: none;
 }
 
 header .burger-menu {
@@ -37,4 +39,23 @@ header .burger-menu {
   padding: 10px 0px;
   border-radius: 8px;
   margin-top: 20px;
+}
+
+/* tablets */
+@media (min-width: 361px) {
+  header .nav-bar {
+    display: block;
+  }
+
+  header .login-bar {
+    display: block;
+  }
+
+  header .burger-menu {
+    display: none;
+  }
+}
+
+/* desktops */
+@media (min-width: 769px) {
 }

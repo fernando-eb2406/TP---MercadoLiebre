@@ -6,13 +6,13 @@ footer {
 footer .icono {
   color: var(--colorCeleste);
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   padding-top: 25px;
+  margin-bottom: 10px;
 }
 
 footer .titulos {
   text-align: center;
-  margin-top: 10px;
 }
 
 footer .texto {
