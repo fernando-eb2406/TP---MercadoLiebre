@@ -1,23 +1,28 @@
-.home {
-  background-color: var(--colorGrisClaro);
+.home main {
+  width: 90%;
+  margin: 0 auto;
 }
 
-body .titulares {
-  font-size: 24px;
+.banner {
+  width: 100%;
 }
 
-body .precios {
-  font-size: 18px;
+.articulo {
+  background-color: white;
+  margin: 10px 0;
 }
 
-body .descuentos {
-  font-size: 16px;
+.detalles {
+  background-color: white;
+  border-top: solid 1px var(--colorGrisClaro);
+  padding: 15px;
 }
 
-body .descripcion {
-  font-size: 16px;
-}
-
-body .texto {
-  font-size: 12px;
+.truck {
+  color: var(--colorVerde);
+  border-radius: 50%;
+  border: solid 1px var(--colorVerde);
+  width: 30px;
+  height: 30px;
+  padding: 5px;
 }
