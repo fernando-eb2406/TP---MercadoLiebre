@@ -1,10 +1,40 @@
-p.centrado {
-  text-align: center;
+.header {
+  background-color: var(--colorAmarillo);
+  padding: 25px 0;
 }
 
-div.burger-menu {
-  background-color: var(--colorAzul);
+header .logo {
+  width: 38%;
+  padding: 0 25px;
+  padding-bottom: 10px;
+}
+
+header .search-bar {
+  padding-left: 18px;
+}
+
+header .contenido-centrado {
+  text-align: center;
+  padding: 8px;
+}
+
+header .nav-bar {
+  padding: 8px 0;
+  font-size: 12px;
+}
+
+header .login-bar {
+  padding: 8px 0;
+  font-size: 12px;
+}
+
+header .burger-menu {
+  background-color: var(--colorCeleste);
   color: white;
-  width: 30px;
-  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 40px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  margin-top: 20px;
 }

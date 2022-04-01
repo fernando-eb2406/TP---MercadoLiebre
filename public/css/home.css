@@ -1,23 +1,23 @@
-body.home header {
-  background-color: #eac926;
+.home {
+  background-color: var(--colorGrisClaro);
 }
 
-h3.titulares {
+body .titulares {
   font-size: 24px;
 }
 
-p.precios {
+body .precios {
   font-size: 18px;
 }
 
-p.descuentos {
+body .descuentos {
   font-size: 16px;
 }
 
-h4.descripcion {
+body .descripcion {
   font-size: 16px;
 }
 
-p.texto {
+body .texto {
   font-size: 12px;
 }
